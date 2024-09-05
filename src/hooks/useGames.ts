@@ -1,5 +1,5 @@
-import useData from "./use-data.ts";
-import { Genre } from "./use-genres.ts";
+import useData from "./useData.ts";
+import { Genre } from "./useGenres.ts";
 
 export interface Platform {
   id: number;

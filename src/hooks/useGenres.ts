@@ -1,4 +1,4 @@
-import useData from "./use-data.ts";
+import useData from "./useData.ts";
 
 export interface Genre {
   id: number;

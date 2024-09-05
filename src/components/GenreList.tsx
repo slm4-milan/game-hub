@@ -1,4 +1,4 @@
-import useGenres, { Genre } from "../hooks/use-genres.ts";
+import useGenres, { Genre } from "../hooks/useGenres.ts";
 import {
   Button,
   HStack,
