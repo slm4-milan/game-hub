@@ -11,8 +11,8 @@ export const GameGrid = () => {
   return (
     <SimpleGrid
       columns={{ sm: 1, md: 2, lg: 3, xl: 4 }}
-      padding={4}
-      spacing={10}
+      padding={2}
+      spacing={3}
     >
       {error && <Text>{error}</Text>}
       {isLoading &&

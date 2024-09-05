@@ -1,4 +1,4 @@
-import useData from "./useData.ts";
+import useData from "./use-data.ts";
 
 export interface Platform {
   id: number;
