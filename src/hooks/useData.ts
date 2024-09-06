@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { DependencyList, useEffect, useState } from "react";
 import apiClient from "../services/api-client.ts";
 import { AxiosRequestConfig, CanceledError } from "axios";
 
@@ -10,7 +10,7 @@ interface FetchResponse<T> {
 const useData = <T>(
   endpoint: string,
   requestConfig?: AxiosRequestConfig,
-  deps?: any[],
+  deps?: DependencyList,
 ) => {
   const [data, setData] = useState<T[]>([]);
   const [error, setError] = useState("");
