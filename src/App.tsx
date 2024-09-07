@@ -16,6 +16,7 @@ export interface GameQuery {
   sortOrder: string;
   searchText: string;
 }
+
 function App() {
   const [gameQuery, setGameQuery] = useState({} as GameQuery);
 
@@ -27,7 +28,7 @@ function App() {
       }}
       templateColumns={{
         base: "1fr",
-        lg: "270px 1fr",
+        lg: "200px 1fr",
       }}
     >
       <GridItem area={"nav"}>
