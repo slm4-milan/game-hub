@@ -29,6 +29,7 @@ export const GenreList = ({ onSelectGenre, selectedGenre }: Props) => {
               src={getCroppedImageUrl(genre.image_background)}
             ></Image>
             <Button
+              whiteSpace={"wrap"}
               onClick={() => onSelectGenre(genre)}
               variant={"link"}
               fontSize={"large"}
